@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 300px;
+    margin: 20px auto;
+}
+.form {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #b3afaf;
+    border-radius: 6px;
+}
+.input {
+    padding: 10px;
+    border: none;
+    flex: 1;
+    outline: none;
+    border-radius: 6px;
+}
+.add {
+    padding: 10px;
+    background-color: rgb(179, 23, 23);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    border-radius: 6px;
+}
+.tasks {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eee;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
